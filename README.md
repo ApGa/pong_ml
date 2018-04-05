@@ -1,7 +1,8 @@
 # pong_ml
 A simple pong game implemented in python along with a neural network based pong playing bot. .   
 
-*Demo:*  
+**Demo:**  
+  
 <img src='https://github.com/ApGa/pong_ml/blob/master/nn_bot_demo.gif' width='' alt='Demo' />  
 
 **Requirements:**  
@@ -42,5 +43,5 @@ Create an incomplete jupyter notebook to serve as a tutorial
 **Sources and References:**
 	1. The neural network implementaion network2.py is taken from Michael Nielsen's excellent discussion on neural networks:  
 		http://neuralnetworksanddeeplearning.com/  
-	2. Also check out the curriculum created by CAIS++, a club I am art of at USC:  
+	2. Also check out the curriculum created by CAIS++, a club I am part of at USC:  
 		http://caisplusplus.usc.edu/
