@@ -10,11 +10,11 @@ numpy
 pygame  
 
 **Approach:**
-The general approach is to use an AI that is calculates the position of the ball relative to the paddle to generate data points per frame.  
+The general approach is to use an AI that is calculates the position of the ball relative to the paddle to generate data points per frame. 
 This dataset is then used to train a neural network to play the game by trying to mimic this AI.  
 
 **Purpose:**  
-This project does not really have any practical purpose as finds a more computationally expensive approximation to a function we already know the form of.
+This project does not really have any practical purpose as finds a more computationally expensive approximation to a function we already know the form of. 
 Rather, this project serves as an educational environment to implement and test out various machine learning algorithms. 
 
 **Usage/Instructions:**  
@@ -28,8 +28,8 @@ The game can be run in 4 ways:
 
  To train a neural network on a dataset generated using the generator_bot, use: py -3 train.py  
 
- For implementation details and more detailed usage instructions (such as how to change the network architecture, dataset size   
- and hyperparameters) please read the comments and annotations within the source code. Two particularly interesting functions are  
+ For implementation details and more detailed usage instructions (such as how to change the network architecture, dataset size 
+ and hyperparameters) please read the comments and annotations within the source code. Two particularly interesting functions are 
  generator_bot and nn_bot in pong.py.   
 
 
