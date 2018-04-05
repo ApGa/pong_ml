@@ -2,7 +2,7 @@
 A simple pong game implemented in python along with a neural network based pong playing bot. .   
 
 **Demo:**  
-  
+
 <img src='https://github.com/ApGa/pong_ml/blob/master/nn_bot_demo.gif' width='' alt='Demo' />  
 
 **Requirements:**  
@@ -10,13 +10,13 @@ python3
 numpy  
 pygame  
 
-**Approach:**
+**Approach:**  
 The general approach is to use an AI that is calculates the position of the ball relative to the paddle to generate data points per frame. 
 This dataset is then used to train a neural network to play the game by trying to mimic this AI.  
 
 **Purpose:**  
 This project does not really have any practical purpose as finds a more computationally expensive approximation to a function we already know the form of. 
-Rather, this project serves as an educational environment to implement and test out various machine learning algorithms. 
+Rather, this project serves as an environment to implement and test out various machine learning algorithms for educational purposes.  
 
 **Usage/Instructions:**  
 The game can be run in 4 ways:  
@@ -40,7 +40,7 @@ Try out genetic algorithms such as NEAT algorithm
 Try out reinforcement algorithm  
 Create an incomplete jupyter notebook to serve as a tutorial    
 
-**Sources and References:**
+**Sources and References:**  
 	1. The neural network implementaion network2.py is taken from Michael Nielsen's excellent discussion on neural networks:  
 		http://neuralnetworksanddeeplearning.com/  
 	2. Also check out the curriculum created by CAIS++, a club I am part of at USC:  
